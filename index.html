@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400i,400,700" rel="stylesheet">
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <h1 class="main-title">Расписание</h1>
+            <form class="search-form" onsubmit="return false">
+                <p class="search-form__choose">Настоящее время: <span class="search-form__current-time">12:30</span> Выберите дату: <input type="date" name="calendar" class="search-form__input" value="2018-11-06" max="2018-11-13" min="2018-10-31">
+            </p>
+            </form>
+        </div>
+    </header>
+    <main id="main">
+        <div class="container">
+            <table id="table">
+                <thead class="table__header">
+                    <tr id="posters">
+                        <td class="table__hedaer-item"></td>
+                        <td class="table__hedaer-item"><a href="https://youtu.be/dTxXLOCpfNA" data-name="smallFoot" class="table__header-link"><img src="img/poster_big.jpg" class="poster" alt=""></a></td>
+                        <td class="table__hedaer-item"><a href="https://youtu.be/ccNPjMpNYMM" data-name="superBobrovs" class="table__header-link"><img src="img/poster_bobrovi.jpg" class="poster" alt=""></a></td>
+                        <td class="table__hedaer-item"><a href="https://youtu.be/e9sz7ZbCmKk" data-name="Bogem" class="table__header-link"><img src="img/poster_bogem.jpg" class="poster" alt=""></a></td>
+                        <td class="table__hedaer-item"><a href="https://youtu.be/roIApvsnVeI" data-name="Helloween" class="table__header-link"><img src="img/poster_feer.jpg" class="poster" alt=""></a></td>
+                        <td class="table__hedaer-item"><a href="https://youtu.be/6fNaZ4rFCYc" data-name="Vinks" class="table__header-link"><img src="img/poster_merlin.jpg" class="poster" alt=""></a></td>
+                        <td class="table__hedaer-item"><a href="https://youtu.be/evrmzTt7Zmk" data-name="PBP" class="table__header-link"><img src="img/poster_prozaPBP.jpg" class="poster" alt=""></a></td>
+                        <td class="table__hedaer-item"><a href="https://youtu.be/sWyrndWCdWE" data-name="Reproduction" class="table__header-link"><img src="img/poster_reproduction.jpg" class="poster" alt=""></a></td>
+                        <td class="table__hedaer-item"><a href="https://youtu.be/wocXByFWzOQ" data-name="Venom" class="table__header-link"><img src="img/poster_venom%20(1).jpg" class="poster" alt=""></a></td>
+                    </tr>
+                    <tr class="names">
+                        <td class="table__hedaer-item"></td>
+                        <td class="table__hedaer-item"><a href="https://youtu.be/dTxXLOCpfNA" id="smallFoot" class="table__header-link">Смолфут</a></td>
+                        <td class="table__hedaer-item"><a href="https://youtu.be/ccNPjMpNYMM" id="superBobrovs" class="table__header-link">Cупер Бобровы</a></td>
+                        <td class="table__hedaer-item"><a href="https://youtu.be/e9sz7ZbCmKk" id="Bogem" class="table__header-link">Богемская рапсодия</a></td>
+                        <td class="table__hedaer-item"><a href="https://youtu.be/roIApvsnVeI" id="Helloween" class="table__header-link">Хэллоуин</a></td>
+                        <td class="table__hedaer-item"><a href="https://youtu.be/6fNaZ4rFCYc" id="Vinks" class="table__header-link">Чародейка</a></td>
+                        <td class="table__hedaer-item"><a href="https://youtu.be/evrmzTt7Zmk" id="PBP" class="table__header-link">Проза бродячих псов</a></td>
+                        <td class="table__hedaer-item"><a href="https://youtu.be/sWyrndWCdWE" id="Reproduction" class="table__header-link">Репродукция</a></td>
+                        <td class="table__hedaer-item"><a href="https://youtu.be/wocXByFWzOQ" id="Venom" class="table__header-link">Веном</a></td>
+                    </tr>
+                </thead>
+                <tbody>
+                                               <tr datetime="2018-10-31" class="dnone">
+                        <td class="table__date">
+                            <div class="table__week-day">Среда</div>
+                            <div class="table__current-time">31.10.18</div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item unavailable">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item unavailable">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item unavailable">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item unavailable">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item unavailable">10:00</a>
+                                <a href="#" class="table__time-item unavailable">12:00</a>
+                                <a href="#" class="table__time-item unavailable">14:00</a>
+                                <a href="#" class="table__time-item unavailable">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                    </tr>
+                                       <tr datetime="2018-11-01" class="dnone">
+                        <td class="table__date">
+                            <div class="table__week-day">Четверг</div>
+                            <div class="table__current-time">01.11.18</div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item unavailable">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item unavailable">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item unavailable">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item unavailable">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item unavailable">10:00</a>
+                                <a href="#" class="table__time-item unavailable">12:00</a>
+                                <a href="#" class="table__time-item unavailable">14:00</a>
+                                <a href="#" class="table__time-item unavailable">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                    </tr>
+                    <tr datetime="2018-11-02" class="dnone">
+                        <td class="table__date">
+                            <div class="table__week-day">Пятница</div>
+                            <div class="table__current-time">02.11.18</div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item unavailable">10:00</a>
+                                <a href="#" class="table__time-item unavailable">12:00</a>
+                                <a href="#" class="table__time-item unavailable">14:00</a>
+                                <a href="#" class="table__time-item unavailable">16:00</a>
+                                <a href="#" class="table__time-item unavailable">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                    </tr>
+                    <tr datetime="2018-11-03" class="dnone">
+                        <td class="table__date">
+                            <div class="table__week-day">Суббота</div>
+                            <div class="table__current-time">03.11.18</div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                    </tr>
+                    <tr datetime="2018-11-04" class="dnone">
+                        <td class="table__date">
+                            <div class="table__week-day">Воскресенье</div>
+                            <div class="table__current-time">04.11.18</div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                    </tr>
+                    <tr datetime="2018-11-05" class="dnone">
+                        <td class="table__date">
+                            <div class="table__week-day">Понедельник</div>
+                            <div class="table__current-time">5.11.18</div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                    </tr>
+
+                   
+                    <tr datetime="2018-11-06">
+                        <td class="table__date">
+                            <div class="table__week-day">Вторник</div>
+                            <div class="table__current-time">06.11.18</div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item unavailable">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item unavailable">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item unavailable">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item unavailable">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item unavailable">10:00</a>
+                                <a href="#" class="table__time-item unavailable">12:00</a>
+                                <a href="#" class="table__time-item unavailable">14:00</a>
+                                <a href="#" class="table__time-item unavailable">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                    </tr>
+                    <tr datetime="2018-11-07">
+                        <td class="table__date">
+                            <div class="table__week-day">Среда</div>
+                            <div class="table__current-time">07.11.18</div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item unavailable">10:00</a>
+                                <a href="#" class="table__time-item unavailable">12:00</a>
+                                <a href="#" class="table__time-item unavailable">14:00</a>
+                                <a href="#" class="table__time-item unavailable">16:00</a>
+                                <a href="#" class="table__time-item unavailable">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                    </tr>
+                    <tr datetime="2018-11-08">
+                        <td class="table__date">
+                            <div class="table__week-day">Четверг</div>
+                            <div class="table__current-time">08.11.18</div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                    </tr>
+                    <tr datetime="2018-11-09">
+                        <td class="table__date">
+                            <div class="table__week-day">Пятница</div>
+                            <div class="table__current-time">09.11.18</div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                    </tr>
+                    <tr datetime="2018-11-10">
+                        <td class="table__date">
+                            <div class="table__week-day">Суббота</div>
+                            <div class="table__current-time">10.11.18</div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                    </tr>
+                                        <tr datetime="2018-11-11">
+                        <td class="table__date">
+                            <div class="table__week-day">Воскресенье</div>
+                            <div class="table__current-time">11.11.18</div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item unavailable">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item unavailable">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item unavailable">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item unavailable">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item unavailable">10:00</a>
+                                <a href="#" class="table__time-item unavailable">12:00</a>
+                                <a href="#" class="table__time-item unavailable">14:00</a>
+                                <a href="#" class="table__time-item unavailable">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                    </tr>
+                    <tr datetime="2018-11-12">
+                        <td class="table__date">
+                            <div class="table__week-day">Понедельник</div>
+                            <div class="table__current-time">12.11.18</div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item unavailable">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item unavailable">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item unavailable">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item unavailable">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item unavailable">10:00</a>
+                                <a href="#" class="table__time-item unavailable">12:00</a>
+                                <a href="#" class="table__time-item unavailable">14:00</a>
+                                <a href="#" class="table__time-item unavailable">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                    </tr>
+                                        <tr datetime="2018-11-13">
+                        <td class="table__date">
+                            <div class="table__week-day">Вторник</div>
+                            <div class="table__current-time">13.11.18</div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item unavailable">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item unavailable">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item unavailable">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item unavailable">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item unavailable">10:00</a>
+                                <a href="#" class="table__time-item unavailable">12:00</a>
+                                <a href="#" class="table__time-item unavailable">14:00</a>
+                                <a href="#" class="table__time-item unavailable">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                        <td>
+                            <div class="table__seanse-times"><a href="#" class="table__time-item">10:00</a>
+                                <a href="#" class="table__time-item">12:00</a>
+                                <a href="#" class="table__time-item">14:00</a>
+                                <a href="#" class="table__time-item">16:00</a>
+                                <a href="#" class="table__time-item">18:00</a>
+                                <a href="#" class="table__time-item">20:00</a></div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="pre-modal"></div>
+        <div class="modal">
+            <div class="container">
+                <div class="modal__header">
+                    <h2 class="modal__title">Смолфут</h2>
+                    <span class="modal__seanse-time">10:00</span>
+                    <span class="modal__seanse-date"></span>
+                    <span class="modal-close">&times;</span>
+                </div>
+                <div class="divider"></div>
+                <div class="modal__other-seanse">
+                    <a href="#" class="table__time-item">10:00</a>
+                    <a href="#" class="table__time-item unavailable" onclick="false">12:00</a>
+                    <a href="#" class="table__time-item">14:00</a>
+                    <a href="#" class="table__time-item unavailable">16:00</a>
+                    <a href="#" class="table__time-item">18:00</a>
+                    <a href="#" class="table__time-item">20:00</a>
+                </div>
+                <div class="modal__body">
+                    <table class="modal__table">
+                        <tbody>
+                            <tr data-row="1">
+                                <th><span class="row">1</span> ряд</th>
+                                <td><span data-id="1" class="seat">1</span> м</td>
+                                <td><span data-id="2" class="seat">2</span> м</td>
+                                <td><span data-id="3" class="seat">3</span> м</td>
+                                <td><span data-id="4" class="seat">4</span> м</td>
+                                <td><span data-id="5" class="seat">5</span> м</td>
+                                <td><span data-id="6" class="seat">6</span> м</td>
+                                <td><span data-id="7" class="seat">7</span> м</td>
+                                <td><span data-id="8" class="seat">8</span> м</td>
+                                <td><span data-id="9" class="seat">9</span> м</td>
+                                <td><span data-id="10" class="seat">10</span> м</td>
+                                <td><span data-id="11" class="seat">11</span> м</td>
+                                <td><span data-id="12" class="seat">12</span> м</td>
+                                <td><span data-id="13" class="seat">13</span> м</td>
+                                <td><span data-id="14" class="seat">14</span> м</td>
+                                <td><span data-id="15" class="seat">15</span> м</td>
+                                <th><span class="row">1</span> ряд</th>
+                            </tr>
+                            <tr data-row="2">
+                                <th><span class="row">2</span> ряд</th>
+                                <td><span data-id="1" class="seat">1</span> м</td>
+                                <td><span data-id="2" class="seat">2</span> м</td>
+                                <td><span data-id="3" class="seat">3</span> м</td>
+                                <td><span data-id="4" class="seat">4</span> м</td>
+                                <td><span data-id="5" class="seat">5</span> м</td>
+                                <td><span data-id="6" class="seat">6</span> м</td>
+                                <td><span data-id="7" class="seat">7</span> м</td>
+                                <td><span data-id="8" class="seat">8</span> м</td>
+                                <td><span data-id="9" class="seat">9</span> м</td>
+                                <td><span data-id="10" class="seat">10</span> м</td>
+                                <td><span data-id="11" class="seat">11</span> м</td>
+                                <td><span data-id="12" class="seat">12</span> м</td>
+                                <td><span data-id="13" class="seat">13</span> м</td>
+                                <td><span data-id="14" class="seat">14</span> м</td>
+                                <td><span data-id="15" class="seat">15</span> м</td>
+                                <th><span class="row">2</span> ряд</th>
+                            </tr>
+                            <tr data-row="3">
+                                <th><span class="row">3</span> ряд</th>
+                                <td><span data-id="1" class="seat">1</span> м</td>
+                                <td><span data-id="2" class="seat">2</span> м</td>
+                                <td><span data-id="3" class="seat">3</span> м</td>
+                                <td><span data-id="4" class="seat">4</span> м</td>
+                                <td><span data-id="5" class="seat">5</span> м</td>
+                                <td class="engaged"><span data-id="6" class="seat">6</span> м</td>
+                                <td class="engaged"><span data-id="7" class="seat">7</span> м</td>
+                                <td class="engaged"><span data-id="8" class="seat">8</span> м</td>
+                                <td class="engaged"><span data-id="9" class="seat">9</span> м</td>
+                                <td><span data-id="10" class="seat">10</span> м</td>
+                                <td><span data-id="11" class="seat">11</span> м</td>
+                                <td><span data-id="12" class="seat">12</span> м</td>
+                                <td><span data-id="13" class="seat">13</span> м</td>
+                                <td><span data-id="14" class="seat">14</span> м</td>
+                                <td><span data-id="15" class="seat">15</span> м</td>
+                                <th><span class="row">3</span> ряд</th>
+                            </tr>
+                            <tr data-row="4">
+                                <th><span class="row">4</span> ряд</th>
+                               <td><span data-id="1" class="seat">1</span> м</td>
+                                <td><span data-id="2" class="seat">2</span> м</td>
+                                <td><span data-id="3" class="seat">3</span> м</td>
+                                <td><span data-id="4" class="seat">4</span> м</td>
+                                <td><span data-id="5" class="seat">5</span> м</td>
+                                <td><span data-id="6" class="seat">6</span> м</td>
+                                <td class="engaged"><span data-id="7" class="seat">7</span> м</td>
+                                <td class="engaged"><span data-id="8" class="seat">8</span> м</td>
+                                <td class="engaged"><span data-id="9" class="seat">9</span> м</td>
+                                <td class="engaged"><span data-id="10" class="seat">10</span> м</td>
+                                <td class="engaged"><span data-id="11" class="seat">11</span> м</td>
+                                <td class="engaged"><span data-id="12" class="seat">12</span> м</td>
+                                <td><span data-id="13" class="seat">13</span> м</td>
+                                <td><span data-id="14" class="seat">14</span> м</td>
+                                <td><span data-id="15" class="seat">15</span> м</td>
+                                <th><span class="row">4</span> ряд</th>
+                            </tr>
+                            <tr data-row="5">
+                                <th><span class="row">5</span> ряд</th>
+                               <td><span data-id="1" class="seat">1</span> м</td>
+                                <td class="engaged"><span data-id="2" class="seat">2</span> м</td>
+                                <td><span data-id="3" class="seat">3</span> м</td>
+                                <td><span data-id="4" class="seat">4</span> м</td>
+                                <td class="engaged"><span data-id="5" class="seat">5</span> м</td>
+                                <td class="engaged"><span data-id="6" class="seat">6</span> м</td>
+                                <td class="engaged"><span data-id="7" class="seat">7</span> м</td>
+                                <td class="engaged"><span data-id="8" class="seat">8</span> м</td>
+                                <td><span data-id="9" class="seat">9</span> м</td>
+                                <td><span data-id="10" class="seat">10</span> м</td>
+                                <td><span data-id="11" class="seat">11</span> м</td>
+                                <td><span data-id="12" class="seat">12</span> м</td>
+                                <td><span data-id="13" class="seat">13</span> м</td>
+                                <td><span data-id="14" class="seat">14</span> м</td>
+                                <td class="engaged"><span data-id="15" class="seat">15</span> м</td>
+                                <th><span class="row">5</span> ряд</th>
+                            </tr>
+                            <tr data-row="6">
+                                <th><span class="row">6</span> ряд</th>
+                                <td><span data-id="1" class="seat">1</span> м</td>
+                                <td><span data-id="2" class="seat">2</span> м</td>
+                                <td><span data-id="3" class="seat">3</span> м</td>
+                                <td><span data-id="4" class="seat">4</span> м</td>
+                                <td><span data-id="5" class="seat">5</span> м</td>
+                                <td><span data-id="6" class="seat">6</span> м</td>
+                                <td><span data-id="7" class="seat">7</span> м</td>
+                                <td><span data-id="8" class="seat">8</span> м</td>
+                                <td><span data-id="9" class="seat">9</span> м</td>
+                                <td><span data-id="10" class="seat">10</span> м</td>
+                                <td><span data-id="11" class="seat">11</span> м</td>
+                                <td><span data-id="12" class="seat">12</span> м</td>
+                                <td><span data-id="13" class="seat">13</span> м</td>
+                                <td><span data-id="14" class="seat">14</span> м</td>
+                                <td><span data-id="15" class="seat">15</span> м</td>
+                                <th><span class="row">6</span> ряд</th>
+                            </tr>
+                            <tr data-row="7">
+                                <th><span class="row">7</span> ряд</th>
+                               <td><span data-id="1" class="seat">1</span> м</td>
+                                <td><span data-id="2" class="seat">2</span> м</td>
+                                <td><span data-id="3" class="seat">3</span> м</td>
+                                <td class="engaged"><span data-id="4" class="seat">4</span> м</td>
+                                <td class="engaged"><span data-id="5" class="seat">5</span> м</td>
+                                <td class="engaged"><span data-id="6" class="seat">6</span> м</td>
+                                <td class="engaged"><span data-id="7" class="seat">7</span> м</td>
+                                <td class="engaged"><span data-id="8" class="seat">8</span> м</td>
+                                <td class="engaged"><span data-id="9" class="seat">9</span> м</td>
+                                <td class="engaged"><span data-id="10" class="seat">10</span> м</td>
+                                <td class="engaged"><span data-id="11" class="seat">11</span> м</td>
+                                <td class="engaged"><span data-id="12" class="seat">12</span> м</td>
+                                <td class="engaged"><span data-id="13" class="seat">13</span> м</td>
+                                <td><span data-id="14" class="seat">14</span> м</td>
+                                <td><span data-id="15" class="seat">15</span> м</td>
+                                <th><span class="row">7</span> ряд</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="modal__info-section">
+                    <div class="modal__buying-info">
+                        Ряд: <span class="modal__row"></span><br/>
+                        Места: <span class="modal__seat"></span>
+                    </div>
+                    <div class="modal__message"></div>
+                    <div class="modal__cost-message"><span class="number-ticets"></span> <span class="cost"></span> <span class="sum"></span></div>
+                    <button class="endBuy dnone">Оплатить</button>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="modal__footer">
+                    <div class="legend">
+                        <div class="legend-element">
+                            <div class="green"></div> - свободные места
+                        </div>
+                        <div class="legend-element">
+                            <div class="grey"></div> - занято
+                        </div>
+                        <div class="legend-element">
+                            <div class="red"></div> - ваш выбор
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+    
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
